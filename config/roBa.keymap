@@ -75,10 +75,10 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans                    &mkp MB2  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB1                  &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(LS(LG(NUMBER_4)))  &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LEFT_CONTROL                                    &trans
+&trans  &trans    &kp UP_ARROW    &trans     &trans                      &trans                    &mkp MB2  &trans  &trans  &trans
+&trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans      &trans  &mkp MB1                  &trans    &trans  &trans  &trans
+&trans  &trans    &trans          &trans     &trans  &trans      &trans  &kp LC(LS(LG(NUMBER_4)))  &trans    &trans  &trans  &trans
+&trans  &trans    &trans          &trans     &trans  &trans      &trans  &kp LEFT_CONTROL                                    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
